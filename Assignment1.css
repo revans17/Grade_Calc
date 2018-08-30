@@ -1,0 +1,90 @@
+p{
+	font-family: Arial; font-size: 12pt; text-align: center;
+}
+h1{
+	font-size: 15pt; font-family: Arial; font-weight: bold; text-align: center;
+}
+h2{
+	font-size: 13pt; font-family: Arial; text-align: left;
+}
+h3{
+	font-size: 13pt; font-family: Arial; font-weight: normal; text-align: left;
+}
+h5{
+	font-size: 13pt; font-family: Arial; font-weight: normal; text-align: left;
+}
+body{
+	background-color: white;
+}
+.grade{
+	position: absolute;
+	margin-left: 212px;
+	top: 185px;
+	bottom: 72px;
+	height: auto;
+	border-style: solid; 
+	border-width: 2px;
+	background-color: LightSkyBlue;
+	z-index: -1;
+	width: 1036px;
+}
+
+.headerOne{
+	text-align: center;
+	position: fixed;
+	margin-left: 212px;
+	background-color: LightSkyBlue;
+	height: 150px;
+	width: 1004px;
+	top:0%;
+	padding: 1em;
+	border-style: solid;
+	border-width: 2px;
+}
+.leftHead{
+	position: fixed;
+	top: 20px;
+	width: 480px;
+	margin-left: 5px;
+	border-width: 2px;
+	background-color: grey;
+	height: 140px;
+	border-style: solid;
+}
+.rightHead{
+	position: fixed;
+	top: 20px;
+	margin-left: 510px;
+	background-color: grey;
+	height: 140px;
+	border-width: 2px;
+	width: 480px;
+	border-style: solid;
+}
+.bottomDiv{
+	position: fixed;
+	bottom: 0px;
+	background-color: grey;
+	height: 70px;
+	margin-bottom: 0px;
+	margin-top: 100px;
+	margin-left: 210px;
+	width: 1037px;
+	z-index: -1;
+	border-width: 2px;
+	border-style: solid;
+}
+#sideBar{
+	list-style-type: none;
+	border-style: solid;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	float: left;
+	width: 185px;
+	margin: 0px;
+	padding: 1em;
+	border-width: 2px;
+	top: 0px;
+	background-color: LightSkyBlue;
+}
